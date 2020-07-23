@@ -9,11 +9,16 @@
     "cypress:version": "cypress version",
     "list-videos": "ls -l cypress/videos",
     "check-videos": "ok-file 'cypress/videos/*.mp4'",
-    "set-status": "set-status"
+    "set-status": "set-status",
+    "test": "yarn cypress:run"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
+  "dependencies": {
+    "cypress": "4.11.0",
+    "cypress-plugin-snapshots": "^1.4.3"
+  },
   "devDependencies": {
     "ok-file": "1.5.2"
   },
